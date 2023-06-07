@@ -44,7 +44,7 @@ public class C05 {
         for (int i = 0; i < urunlerinlinkleri.size(); i++) {
             urunlerinlinkleri = driver.findElements(By.xpath("//a[@class='a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal']"));
             urunlerinlinkleri.get(i).click();
-            System.out.println(i + ". urun basligi: " + driver.getTitle());
+            System.out.println((i+1) + ". urun basligi: " + driver.getTitle());
 
             driver.navigate().back();
 
