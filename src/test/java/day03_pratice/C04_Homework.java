@@ -49,13 +49,7 @@ public class C04_Homework {
         int expectedValue = 100000000;
 
         Assert.assertTrue(actualValue>expectedValue);
-
-
-
-
-
-
-    }
+}
 
     @After
     public void tearDown() throws Exception {
