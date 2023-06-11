@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C03_Pratice {
+public class C03_GetPageSource {
     WebDriver driver;
 
     @Before
